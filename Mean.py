@@ -10,7 +10,7 @@ from matplotlib import pyplot as plt
 greatest_books = pd.read_csv("StatisticsPython/hundredbooks.csv")
 
 # Save transaction times to a separate numpy array
-author_ages = greatest_books['Ages']
+author_ages = greatest_books['ages']
 
 # Use plt.hist() below
 plt.hist(author_ages, range=(10, 80), bins=14,  edgecolor='black')
